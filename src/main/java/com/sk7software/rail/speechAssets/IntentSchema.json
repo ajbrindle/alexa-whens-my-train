@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "WhensMyTrainIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "time",
+          "type": "AMAZON.TIME"
+        }
+      ],
+      "intent": "StopsIntent"
+    },
+    {
+      "intent": "TrainsHomeIntent"
+    },
+    {
+      "intent": "LaterTrainsIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

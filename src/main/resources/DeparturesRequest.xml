@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://thalesgroup.com/RTTI/2013-11-28/Token/types" xmlns:ldb="http://thalesgroup.com/RTTI/2017-02-02/ldb/">
+    <soapenv:Header>
+        <typ:AccessToken>
+            <typ:TokenValue>7d2b005e-2019-4535-8431-89122d5bb8be</typ:TokenValue>
+        </typ:AccessToken>
+    </soapenv:Header>
+    <soapenv:Body>
+        <ldb:GetDepartureBoardRequest>
+            <ldb:numRows>-ROWS-</ldb:numRows>
+            <ldb:crs>-STATION-</ldb:crs>
+            <ldb:filterCrs>-DESTINATION-</ldb:filterCrs>
+            <ldb:filterType>to</ldb:filterType>
+            <ldb:timeOffset>-OFFSET-</ldb:timeOffset>
+            <ldb:timeWindow>120</ldb:timeWindow>
+        </ldb:GetDepartureBoardRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

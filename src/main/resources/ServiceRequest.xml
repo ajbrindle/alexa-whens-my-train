@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://thalesgroup.com/RTTI/2013-11-28/Token/types" xmlns:ldb="http://thalesgroup.com/RTTI/2017-02-02/ldb/">
+    <soapenv:Header>
+        <typ:AccessToken>
+            <typ:TokenValue>7d2b005e-2019-4535-8431-89122d5bb8be</typ:TokenValue>
+        </typ:AccessToken>
+    </soapenv:Header>
+    <soapenv:Body>
+        <ldb:GetServiceDetailsRequest>
+            <ldb:serviceID>-SERVICE_ID-</ldb:serviceID>
+        </ldb:GetServiceDetailsRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

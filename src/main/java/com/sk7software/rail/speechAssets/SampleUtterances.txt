@@ -1,0 +1,5 @@
+WhensMyTrainIntent When's my train
+WhensMyTrainIntent List my trains
+StopsIntent Where does the {time} stop
+TrainsHomeIntent When are the trains home
+LaterTrainsIntent Are there any later ones
